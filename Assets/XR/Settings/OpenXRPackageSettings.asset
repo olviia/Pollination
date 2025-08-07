@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5019471fb2174e5c852ecd4047163007, type: 3}
   m_Name: HandInteractionProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteraction
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -614,7 +614,7 @@ MonoBehaviour:
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
   multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &4299071044899267408
 MonoBehaviour:
@@ -649,24 +649,24 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -2940084648690660415}
-  - {fileID: 4126896779125252487}
-  - {fileID: -5944901554868453587}
-  - {fileID: 4233122401146993939}
+  - {fileID: -7062717480769173}
   - {fileID: 6487513789855524286}
   - {fileID: 8233583773651796895}
-  - {fileID: -7062717480769173}
+  - {fileID: -7199186627997309931}
+  - {fileID: -6511207126574142855}
+  - {fileID: -1400597872465907146}
   - {fileID: 8484780106448390276}
+  - {fileID: -2635316543977450564}
+  - {fileID: 4233122401146993939}
+  - {fileID: -4167360409144508348}
   - {fileID: -4178177034377891583}
   - {fileID: 2127632207770199858}
-  - {fileID: 7430009160322254590}
-  - {fileID: -1400597872465907146}
-  - {fileID: -4167360409144508348}
-  - {fileID: -7199186627997309931}
-  - {fileID: -2635316543977450564}
-  - {fileID: -3593580558934100607}
+  - {fileID: -5944901554868453587}
+  - {fileID: 4126896779125252487}
   - {fileID: 4299071044899267408}
-  - {fileID: -6511207126574142855}
+  - {fileID: 7430009160322254590}
+  - {fileID: -2940084648690660415}
+  - {fileID: -3593580558934100607}
   m_renderMode: 1
   m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
 --- !u!114 &6320147571603679681
 MonoBehaviour:
@@ -693,25 +693,25 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 4187409098361981806}
-  - {fileID: 4223665942812685562}
   - {fileID: -5727340549735815401}
   - {fileID: 9031996691362437178}
+  - {fileID: 6983314082265951775}
+  - {fileID: -4950666920105852442}
+  - {fileID: 6611885929729600154}
   - {fileID: -6819989437719255263}
+  - {fileID: 9198111420054129269}
+  - {fileID: -4518307996912369907}
+  - {fileID: -6064551593805283332}
+  - {fileID: -2239119514013989516}
   - {fileID: -5990598069049572203}
   - {fileID: 854984644786353710}
-  - {fileID: -9214747695849456072}
-  - {fileID: -4518307996912369907}
-  - {fileID: 6611885929729600154}
   - {fileID: -6187781510884158588}
-  - {fileID: -2239119514013989516}
-  - {fileID: 6983314082265951775}
-  - {fileID: -6064551593805283332}
-  - {fileID: -4596520631093837450}
+  - {fileID: 4223665942812685562}
   - {fileID: -4228748643291391378}
+  - {fileID: -9214747695849456072}
+  - {fileID: 4187409098361981806}
   - {fileID: -1018257758940903636}
-  - {fileID: 9198111420054129269}
-  - {fileID: -4950666920105852442}
+  - {fileID: -4596520631093837450}
   m_renderMode: 1
   m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
 --- !u!114 &6487513789855524286
 MonoBehaviour:
