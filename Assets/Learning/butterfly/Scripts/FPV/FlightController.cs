@@ -38,7 +38,7 @@ namespace fpv
             Vector3 thrustForce = transform.up * (currentThrottlePercent / 100f) * maxThrust;
             
             Debug.Log($"gravity force: {playerRigidbody.mass * Physics.gravity}");
-            Debug.Log($"force: {playerRigidbody.velocity}");
+            Debug.Log($"force: {playerRigidbody.linearVelocity}");
 
             playerRigidbody.AddForce(thrustForce);
 
